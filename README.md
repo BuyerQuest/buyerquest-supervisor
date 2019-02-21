@@ -1,4 +1,4 @@
-# gamegos-supervisor
+# buyerquest-supervisor
 
 This cookbook installs and configures [Supervisor](https://github.com/Supervisor/supervisor).
 
@@ -21,7 +21,18 @@ This cookbook installs and configures [Supervisor](https://github.com/Supervisor
 
 # Usage
 
-Here's a quick example of installing the supervisord and adding some programs.
+Add to your `Berksfile`:
+
+```ruby
+cookbook 'buyerquest-supervisor', github: 'buyerquest/buyerquest-supervisor'
+```
+
+And to `metadata.rb`:
+```ruby
+depends 'buyerquest-supervisor'
+```
+
+Now in your Chef recipe, here's a quick example of installing the supervisord and adding some programs.
 
 ```ruby
 supervisor_install '3.3'

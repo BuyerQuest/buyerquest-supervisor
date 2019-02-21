@@ -36,7 +36,7 @@ property :include_files, [String, Array], default: lazy {
   "#{supervisord_config_directory}/*.conf"
 }
 
-property :template, String, default: 'gamegos-supervisor'
+property :template, String, default: 'buyerquest-supervisor'
 
 action :create do
   supervisor_config_directory = new_resource.supervisord_config_directory

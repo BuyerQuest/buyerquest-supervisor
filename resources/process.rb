@@ -45,7 +45,7 @@ property :fcgi_socket, String, default: 'unix:///var/run/supervisor/%(program_na
 property :fcgi_socket_owner, [String, NilClass], default: nil
 property :fcgi_socket_mode, String, default: '0700'
 
-property :template, String, default: 'gamegos-supervisor'
+property :template, String, default: 'buyerquest-supervisor'
 
 action :create do
   clean_name = new_resource.name.downcase.tr(' ', '_')

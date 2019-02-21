@@ -1,5 +1,5 @@
 #
-# Cookbook:: gamegos-supervisor
+# Cookbook:: buyerquest-supervisor
 # Recipe:: test
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.

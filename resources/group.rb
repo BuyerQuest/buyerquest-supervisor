@@ -4,7 +4,7 @@ resource_name :supervisor_group
 property :name, String, name_attribute: true
 property :programs, Array, required: true
 property :priority, Integer, default: 999
-property :template, String, default: 'gamegos-supervisor'
+property :template, String, default: 'buyerquest-supervisor'
 
 action :create do
   declare_resource(:template, "supervisor_group_#{new_resource.name}") do

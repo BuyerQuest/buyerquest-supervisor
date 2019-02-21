@@ -1,6 +1,6 @@
-# gamegos-supervisor CHANGELOG
+# buyerquest-supervisor CHANGELOG
 
-This file is used to list changes made in each version of the gamegos-supervisor cookbook.
+This file is used to list changes made in each version of the buyerquest-supervisor cookbook.
 
 # 1.0.0
 
