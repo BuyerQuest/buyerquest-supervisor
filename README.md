@@ -37,9 +37,7 @@ Now in your Chef recipe, here's a quick example of installing the supervisord an
 ```ruby
 supervisor_install '3.3'
 
-supervisor_config '/etc/supervisor' do
-  action :create
-end
+supervisor_config 'supervisor'
 
 supervisor_process 'cat' do
   type 'program'
