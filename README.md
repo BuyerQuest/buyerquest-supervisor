@@ -7,7 +7,7 @@ This cookbook installs and configures [Supervisor](https://github.com/Supervisor
 ## Platforms
 
 - Ubuntu 14.04+
-- Centos 8+
+- Centos 7+
 - Debian 7+
 
 ## Chef
