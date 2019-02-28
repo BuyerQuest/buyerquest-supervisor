@@ -1,3 +1,7 @@
+# Notice
+
+This cookbook's changes have been merged upstream into [gamegos/supervisor-cookbook](https://github.com/gamegos/supervisor-cookbook). Use that instead.
+
 # buyerquest-supervisor
 
 This cookbook installs and configures [Supervisor](https://github.com/Supervisor/supervisor).
